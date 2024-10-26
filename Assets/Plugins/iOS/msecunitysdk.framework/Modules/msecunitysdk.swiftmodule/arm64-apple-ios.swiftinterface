@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name msecunitysdk
+import Foundation
+import Msec
+import Network
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import msecunitysdk
+@_cdecl("initMSecSdk")
+public func initMSecSdk(_ appVersion: Swift.UnsafePointer<Swift.CChar>)
+@_cdecl("isJailbroken")
+public func isJailbroken() -> Swift.Bool
+@_cdecl("isMemoryHooked")
+public func isMemoryHooked() -> Swift.Bool
+@_cdecl("isEmulator")
+public func isEmulator() -> Swift.Bool
+@_cdecl("isReverseEngineering")
+public func isReverseEngineering() -> Swift.Bool
+@_cdecl("isDebuggable")
+public func isDebuggable() -> Swift.Bool
+@_cdecl("verifyDomainCertificate")
+public func verifyDomainCertificate(_ domain: Swift.UnsafePointer<Swift.CChar>, _ port: Swift.UnsafePointer<Swift.Int32>) -> Swift.Bool

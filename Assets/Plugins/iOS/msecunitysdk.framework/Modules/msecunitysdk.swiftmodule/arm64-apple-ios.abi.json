@@ -1,0 +1,263 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "msecunitysdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Msec",
+        "printedName": "Msec",
+        "declKind": "Import",
+        "moduleName": "msecunitysdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "msecunitysdk"
+      },
+      {
+        "kind": "Var",
+        "name": "mSec",
+        "printedName": "mSec",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Msec.MsecSdk?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MsecSdk",
+                "printedName": "Msec.MsecSdk",
+                "usr": "s:4Msec0A3SdkC"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12msecunitysdk4mSec4Msec0C3SdkCSgvp",
+        "mangledName": "$s12msecunitysdk4mSec4Msec0C3SdkCSgvp",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "initMSecSdk",
+        "printedName": "initMSecSdk(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)initMSecSdk:",
+        "mangledName": "$s12msecunitysdk11initMSecSdkyySPys4Int8VGF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isJailbroken",
+        "printedName": "isJailbroken()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)isJailbroken",
+        "mangledName": "$s12msecunitysdk12isJailbrokenSbyF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isMemoryHooked",
+        "printedName": "isMemoryHooked()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)isMemoryHooked",
+        "mangledName": "$s12msecunitysdk14isMemoryHookedSbyF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isEmulator",
+        "printedName": "isEmulator()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)isEmulator",
+        "mangledName": "$s12msecunitysdk10isEmulatorSbyF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isReverseEngineering",
+        "printedName": "isReverseEngineering()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)isReverseEngineering",
+        "mangledName": "$s12msecunitysdk20isReverseEngineeringSbyF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isDebuggable",
+        "printedName": "isDebuggable()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)isDebuggable",
+        "mangledName": "$s12msecunitysdk12isDebuggableSbyF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "verifyDomainCertificate",
+        "printedName": "verifyDomainCertificate(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int32>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)verifyDomainCertificate::",
+        "mangledName": "$s12msecunitysdk23verifyDomainCertificateySbSPys4Int8VG_SPys5Int32VGtF",
+        "moduleName": "msecunitysdk",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

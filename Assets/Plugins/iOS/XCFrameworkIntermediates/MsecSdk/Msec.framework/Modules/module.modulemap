@@ -1,0 +1,11 @@
+framework module Msec {
+  umbrella header "Msec.h"
+  export *
+
+  module * { export * }
+}
+
+module Msec.Swift {
+  header "Msec-Swift.h"
+  requires objc
+}

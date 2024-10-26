@@ -1,0 +1,6 @@
+framework module msecunitysdk {
+  umbrella header "msecunitysdk.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_msecunitysdk {
+  umbrella header "Pods-msecunitysdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
