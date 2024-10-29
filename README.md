@@ -6,6 +6,7 @@ Msec System is a specialized security platform designed to help mobile applicati
 - Emulator Compatibility.
 - API Exposure.
 - Application Tampering/Modifying.
+  
 Msec Unity Sdk is a Unity Package that helps Unity-based games can integrate and run Msec Sdk.
 # How to build and run this demo?
 Please take a look at this guide (https://github.com/msecsys-dev/msecunitydemo/blob/main/HowToBuildAndRun.docx) 
