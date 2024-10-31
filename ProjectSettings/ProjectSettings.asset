@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: mbf
+  companyName: msecsys
   productName: Msec Unity Demo
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -162,7 +162,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.mbf.MsecUnityDemo
+    Android: com.msecsys.MsecUnityDemo
     Standalone: com.DefaultCompany.2DProject
     iPhone: net.gahu.rushhour.demo2
   buildNumber:
@@ -266,7 +266,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: Assets/Plugins/Android/msecsdk.keystore'
+  AndroidKeystoreName: '{inproject}: Assets/Plugins/Android/msecunitykeystore.keystore'
   AndroidKeyaliasName: msec
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
