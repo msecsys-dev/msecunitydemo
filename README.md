@@ -1,5 +1,5 @@
-# Msec Unity Sdk Demo
-# About Msec System and Msec Unity Sdk
+# Msec Unity SDK Demo
+# About Msec System and Msec Unity SDK
 [Msec System](https://msecsys.com) is a specialized security platform designed to help mobile applications and games proactively monitor and address potential vulnerabilities. Specifically, these issues include:
 - Premium assets or content leakage/modification.
 - Rooted/jailbroken device detection.
